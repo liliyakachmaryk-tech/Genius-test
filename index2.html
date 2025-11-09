@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test HTML</title>
+  </head>
+  <body>
+    <!--Test table-->
+    <table border="1">
+      <caption>
+        People
+      </caption>
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Full name</th>
+          <th>Position</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td colspan="2">Bill Gates</td>
+          <td rowspan="4">$1000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td colspan="2">Steve Jobs</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Larry Page</td>
+          <td>Founder Google</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Mark Zuckeberg</td>
+          <td>Founder Facebok</td>
+        </tr>
+      </tbody>
+      <tfooter>
+        <tr>
+          <th>Sum</th>
+          <th></th>
+          <th></th>
+          <th>$4600</th>
+        </tr>
+      </tfooter>
+      <p>Заголовок на сторінці виділяється тегом &lt;h1&gt;</p>
+      <p>Google</p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/C0DPdy98e4c?si=AlIM0tAdXP8co3Nk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <audio controls>
+        <source src="./video&audio/SoundHelix-Song-1.mp3" />
+      </audio>
+      <video controls>
+        <source src="./video&audio/Flower.webm.360.webm" type="video/webm" />
+        <source src="./video&audio/video1.mp4.mp4" type="video/mp4" />
+      </video>
+    </table>
+  </body>
 </html>
